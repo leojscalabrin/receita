@@ -1,0 +1,133 @@
+body{
+    background-color: #F0F0F0;
+}
+
+*{
+    font-weight: 400; 
+    font-family: "Roboto";
+}
+
+h1, h2, h3, p{
+    margin: 0;
+}
+
+.container{
+    width: fit-content;
+}
+
+#title {
+    color: #FF6A28;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.box {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 12px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-bottom: 37px;
+    min-width: 798px;
+    max-width: 798px;
+}
+
+.sub-title {
+    color: #61656D;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.info-box {
+    background-color: #F0F0F0;
+    width: 118px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    box-sizing: border-box;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.icon {
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+.info-text {
+    text-align: center;
+    color: #61656D;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.info-wrapper {
+    display: flex;
+}
+
+.principal.image{
+    margin-bottom: 10px;
+}
+
+.info{
+    color: #FF6A28;
+    font-weight: 700;
+}
+
+.box-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-title-preparation{
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.list{ 
+    padding: 0;
+    padding-left: 15px;
+}
+
+.list-item{
+    color: #61656D;
+}
+
+.list-item::marker{
+    font-size: 11px;
+}
+
+.list-item--preparation-mode::marker{
+    font-size: 20px;
+}
+
+.icon-title{
+    margin-right: 8px;
+}
+
+.information-title{
+    color: #61656D;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #F0F0F0;
+    text-align: center;
+    padding: 8px 0;
+    margin-bottom: 16px;
+}
+
+.box--small-margin{
+    margin-bottom: 16px;
+}
+
+.information-text{
+    color: #61656D;
+}
